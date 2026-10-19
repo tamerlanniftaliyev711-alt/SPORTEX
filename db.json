@@ -1,0 +1,20 @@
+{
+  "products": [
+      {"id": 1, "image": "1.jpeg" , "title": "Workout Essentials T-shirt", "price": 20, "size": "S"},
+      {"id": 2, "image": "2.jpeg" , "title": "Workout Essentials T-shirt", "price": 20, "size": "S"},
+      {"id": 3, "image": "3.jpeg" , "title": "Workout Essentials T-shirt", "price": 20, "size": "S"},
+      {"id": 4, "image": "4.jpeg" , "title": "Workout Essentials T-shirt", "price": 20, "size": "S"},
+      {"id": 5, "image": "5.jpeg" , "title": "Workout Essentials T-shirt", "price": 20, "size": "S"},
+      {"id": 6, "image": "6.jpeg" , "title": "Workout Essentials T-shirt", "price": 20, "size": "S"},
+      {"id": 7, "image": "7.jpeg" , "title": "Workout Essentials T-shirt", "price": 20, "size": "S"},
+      {"id": 8, "image": "8.jpeg" , "title": "Workout Essentials T-shirt", "price": 20, "size": "S"},
+      {"id": 9, "image": "9.jpeg" , "title": "Workout Essentials T-shirt", "price": 20, "size": "S"},
+      {"id": 10, "image": "10.jpeg" , "title": "Workout Essentials T-shirt", "price": 20, "size": "S"},
+      {"id": 11, "image": "11.jpeg" , "title": "Workout Essentials T-shirt", "price": 20, "size": "S"},
+      {"id": 12, "image": "12.jpeg" , "title": "Workout Essentials T-shirt", "price": 20, "size": "S"},
+      {"id": 13, "image": "13.jpeg" , "title": "Workout Essentials T-shirt", "price": 20, "size": "S"},
+      {"id": 14, "image": "14.jpeg" , "title": "Workout Essentials T-shirt", "price": 20, "size": "S"},
+      {"id": 15, "image": "15.jpeg" , "title": "Workout Essentials T-shirt", "price": 20, "size": "S"},
+      {"id": 16, "image": "16.jpeg" , "title": "Workout Essentials T-shirt", "price": 20, "size": "S"}     
+    ]
+}
