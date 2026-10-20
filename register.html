@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qeydiyyat - SportMovo</title>
+  <link rel="icon" type="image/png" href="./logo.png">
+  <link rel="stylesheet" href="./auth.css">
+</head>
+<body>
+  <main class="auth-wrap">
+    <h1>Qeydiyyat</h1>
+    <form id="register-form">
+      <label>Ad
+        <input type="text" name="name" autocomplete="name">
+      </label>
+      <label>Email
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label>Şifrə (ən azı 6 simvol)
+        <input type="password" name="password" autocomplete="new-password" minlength="6" required>
+      </label>
+      <label>Şifrəni təkrarla
+        <input type="password" name="password2" autocomplete="new-password" minlength="6" required>
+      </label>
+      <p class="auth-error" id="auth-error" role="alert"></p>
+      <button type="submit" class="primary">Qeydiyyatdan keç</button>
+    </form>
+    <button type="button" class="secondary" id="google-btn">Google ilə davam et</button>
+    <p class="auth-alt">Artıq hesabın var? <a href="login.html">Daxil ol</a></p>
+  </main>
+  <script type="module" src="./auth.js"></script>
+</body>
+</html>
