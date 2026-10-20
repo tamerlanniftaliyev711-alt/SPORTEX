@@ -99,15 +99,15 @@ nav {
     }
 
     ul {
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .header {
-        gap: 2rem;
+        gap: 1.5rem;
     }
 
     nav {
-        gap: 3rem;
+        gap: 2.5rem;
     }
 
     .product-card {
@@ -115,6 +115,3 @@ nav {
         margin-left: 10%;
     }
 }
-
-
-

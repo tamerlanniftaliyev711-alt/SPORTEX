@@ -163,15 +163,15 @@ input {
     }
 
     ul {
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .header {
-        gap: 2rem;
+        gap: 1.5rem;
     }
 
     nav {
-        gap: 3rem;
+        gap: 2.5rem;
     }
 
     .product-card {
