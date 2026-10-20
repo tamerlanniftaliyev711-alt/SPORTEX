@@ -3,31 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Qeydiyyat - SportMovo</title>
+  <title>Sign up - SportMovo</title>
   <link rel="icon" type="image/png" href="./logo.png">
   <link rel="stylesheet" href="./auth.css">
 </head>
 <body>
   <main class="auth-wrap">
-    <h1>Qeydiyyat</h1>
+    <h1>Sign up</h1>
     <form id="register-form">
-      <label>Ad
+      <label>Full name
         <input type="text" name="name" autocomplete="name">
       </label>
       <label>Email
         <input type="email" name="email" autocomplete="email" required>
       </label>
-      <label>Şifrə (ən azı 6 simvol)
+      <label>Password (at least 6 characters)
         <input type="password" name="password" autocomplete="new-password" minlength="6" required>
       </label>
-      <label>Şifrəni təkrarla
+      <label>Confirm Password
         <input type="password" name="password2" autocomplete="new-password" minlength="6" required>
       </label>
       <p class="auth-error" id="auth-error" role="alert"></p>
-      <button type="submit" class="primary">Qeydiyyatdan keç</button>
+      <button type="submit" class="primary">Sign up</button>
     </form>
     <button type="button" class="secondary" id="google-btn">Google ilə davam et</button>
-    <p class="auth-alt">Artıq hesabın var? <a href="login.html">Daxil ol</a></p>
+    <p class="auth-alt">Do you have an account? <a href="login.html">Sign in</a></p>
   </main>
   <script type="module" src="./auth.js"></script>
 </body>

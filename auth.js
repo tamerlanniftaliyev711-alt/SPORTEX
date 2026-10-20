@@ -7,7 +7,8 @@ import {
   GoogleAuthProvider,
   onAuthStateChanged,
   signOut,
-  updateProfile
+  updateProfile,
+  deleteUser
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 
 // 1) Firebase-in verdiyi firebaseConfig blokunu bura yapışdır
@@ -79,7 +80,7 @@ if (loginForm) {
   });
 }
 
-// Google ilə giriş (hər iki səhifədə)
+// Google ilə giriş
 const googleBtn = document.getElementById("google-btn");
 if (googleBtn) {
   googleBtn.addEventListener("click", async () => {
@@ -92,22 +93,74 @@ if (googleBtn) {
   });
 }
 
-// Header-dəki link: id="auth-link" olan elementi yeniləyir (istənilən səhifədə)
-const authLink = document.getElementById("auth-link");
-if (authLink) {
+// Header ikonu
+const userIcon = document.getElementById("user-icon");
+if (userIcon) {
+  const personSvg =
+    '<svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" ' +
+    'stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+    '<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg>';
+
   onAuthStateChanged(auth, (user) => {
-    if (user) {
-      authLink.textContent = "Çıxış (" + (user.displayName || user.email) + ")";
-      authLink.href = "#";
-      authLink.onclick = async (e) => {
-        e.preventDefault();
-        await signOut(auth);
-        location.reload();
-      };
-    } else {
-      authLink.textContent = "Daxil ol";
-      authLink.href = "login.html";
-      authLink.onclick = null;
+    if (!user) {
+      userIcon.href = "login.html";
+      userIcon.title = "Daxil ol";
+      userIcon.innerHTML = personSvg;
+      userIcon.onclick = null;
+      return;
     }
+    const label = (user.displayName || user.email || "?").trim();
+    userIcon.href = "#";
+    userIcon.title = label;
+    userIcon.innerHTML = '<span class="auth-avatar"></span>';
+    userIcon.firstChild.textContent = label[0].toUpperCase();
+
+    const menu = document.createElement("div");
+    menu.className = "auth-menu";
+    menu.hidden = true;
+
+    const name = document.createElement("span");
+    name.textContent = label;
+
+    const out = document.createElement("button");
+    out.type = "button";
+    out.textContent = "Çıxış";
+    out.onclick = async (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      await signOut(auth);
+      location.reload();
+    };
+
+    const del = document.createElement("button");
+    del.type = "button";
+    del.textContent = "Hesabı sil";
+    del.className = "auth-danger";
+    del.onclick = async (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (!confirm("Hesabın həmişəlik silinəcək. Davam edək?")) return;
+      try {
+        await deleteUser(user);
+        location.reload();
+      } catch (err) {
+        if (err.code === "auth/requires-recent-login") {
+          alert("Təhlükəsizlik üçün yenidən daxil ol, sonra hesabı sil.");
+          await signOut(auth);
+          location.href = "login.html";
+        } else {
+          alert("Hesabı silmək alınmadı: " + err.code);
+        }
+      }
+    };
+
+    menu.append(name, out, del);
+    userIcon.append(menu);
+
+    userIcon.onclick = (e) => {
+      e.preventDefault();
+      if (e.target.closest(".auth-menu")) return;
+      menu.hidden = !menu.hidden;
+    };
   });
 }
