@@ -34,10 +34,30 @@ window.addToCart = function (products) {
     alert(`${products.title} has been added to your cart.`)
 }
 
-window.addToFav = function(id) {
+window.addToFav = function (id) {
     let fav = JSON.parse(localStorage.getItem('favourites')) || [];
     const product = data.find(p => p.id === id);
     fav.push(product);
     localStorage.setItem('favourites', JSON.stringify(fav));
     alert(`${product.title} has been added to your favourites.`);
 }
+
+const searchProducts = document.getElementById("search")
+const submitBtn = document.getElementById("submitBtn")
+
+submitBtn.addEventListener('click', () => {
+    const text = searchProducts.value.toLowerCase().trim();
+
+    const filtered = data.filter(p =>
+        p.title.toLowerCase().includes(text)
+    )
+    document.querySelectorAll(".product-card").forEach((card , i) => {
+        card.style.display = filtered.includes(data[i]) ? "" : "none"
+    }) 
+})
+
+searchProducts.addEventListener('keydown', (e) => {
+    if (e.key === "Enter") {
+        submitBtn.click()
+    }
+})
