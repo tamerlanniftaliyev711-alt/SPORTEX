@@ -98,6 +98,11 @@ nav {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .header img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
     ul {
         gap: 1rem;
     }
@@ -109,12 +114,9 @@ nav {
     nav {
         gap: 2.5rem;
     }
+
     .product-card {
         width: 80%;
         margin-left: 10%;
     }
 }
-
-
-
-

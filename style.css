@@ -152,6 +152,7 @@ input {
     ul {
         gap: 3.5rem;
     }
+
     input {
         width: 70%;
     }
@@ -160,6 +161,11 @@ input {
 @media (max-width: 768px) {
     #products {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .header img {
+        width: 3.5rem;
+        height: 3.5rem;
     }
 
     ul {
