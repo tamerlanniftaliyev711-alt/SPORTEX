@@ -163,7 +163,7 @@ input {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .header img {
+    #mylogo {
         width: 3.5rem;
         height: 3.5rem;
     }

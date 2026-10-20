@@ -94,7 +94,7 @@ nav {
 }
 
 @media (max-width: 768px) {
-    .header img{
+    #mylogo {
         width: 3.5rem;
         height: 3.5rem;
     }
