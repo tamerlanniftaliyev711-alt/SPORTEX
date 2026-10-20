@@ -116,7 +116,7 @@ input {
     height: 3rem;
     border: none;
     color: white;
-    background-color: black;
+    background-color: #F7C52F;
     font-size: 20px;
     transition: transform 0.3s ease;
 }
@@ -133,6 +133,12 @@ input {
 
 #inp-btn button:active {
     transform: scale(0.95);
+}
+
+#inp-btn img {
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: cover;
 }
 
 @media (max-width: 1024px) {
