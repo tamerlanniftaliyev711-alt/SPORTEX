@@ -47,11 +47,17 @@ nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
 }
 
 .product-card {
     border: 1px solid black;
     padding: 1rem;
+}
+
+.product-card h2 {
+    margin-top: 0.5rem;
 }
 
 .product-card img {
@@ -62,6 +68,8 @@ nav {
 .product-card p {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .product-card button {
@@ -72,12 +80,18 @@ nav {
     background-color: black;
     color: white;
     transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.product-card h3 {
+    font-size: 22px;
 }
 
 #addtofav {
     background-color: white;
     color: black;
     font-size: 1.5rem;
+    margin-top: 0.5rem;
 
 }
 
@@ -89,6 +103,7 @@ nav {
 #addtocart {
     background-color: #EDB918;
     color: black;
+    margin-top: 0.5rem;
 }
 
 #addtocart {

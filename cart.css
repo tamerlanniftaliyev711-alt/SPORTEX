@@ -47,6 +47,11 @@ nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 3rem;
+    margin-left: 1rem;
+}
+
+.card h2 {
+    margin-top: 0.5rem;
 }
 
 .card {
@@ -62,6 +67,12 @@ nav {
 .card p {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card h3 {
+    font-size: 22px;
 }
 
 .card button {
@@ -72,6 +83,8 @@ nav {
     background-color: black;
     color: white;
     transition: transform 0.3s ease;
+    cursor: pointer;
+    margin-top: 0.5rem;
 }
 
 #payment button {
@@ -86,7 +99,9 @@ nav {
     color: white;
     margin-left: 32.5%;
     margin-right: 32.5%;
-    margin-top: 4rem;
+    margin-top: 2.5rem;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
 }
 
 #payment button:hover {

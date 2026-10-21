@@ -62,6 +62,12 @@ nav {
 .card p {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card h2 {
+    margin-top: 0.5rem;
 }
 
 .card button {
@@ -72,6 +78,8 @@ nav {
     background-color: black;
     color: white;
     transition: transform 0.3s ease;
+    cursor: pointer;
+    margin-top: 0.5rem;
 }
 
 @media (max-width: 1024px) {
