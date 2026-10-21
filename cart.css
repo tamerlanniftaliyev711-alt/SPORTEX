@@ -74,6 +74,29 @@ nav {
     transition: transform 0.3s ease;
 }
 
+#payment button {
+    border-radius: 10px;
+    padding: 0.3rem;
+    border: none;
+    background-color: #2b72e3;
+    width: 35%;
+    height: 7vh;
+    font-size: 21px;
+    transition: transform 0.3s ease;
+    color: white;
+    margin-left: 32.5%;
+    margin-right: 32.5%;
+    margin-top: 4rem;
+}
+
+#payment button:hover {
+    transform: scale(1.1);
+}
+
+#payment button:active {
+    transform: scale(0.95);
+}
+
 @media (max-width: 1024px) {
     #products {
         grid-template-columns: repeat(2, 1fr);

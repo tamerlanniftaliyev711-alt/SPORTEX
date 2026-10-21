@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SportMovo|Your Cart</title>
-    <link rel="icon" href="/favicon.ico" sizes="48x48">
+    <title>SportMovo | Your Cart</title>
+    <link rel="icon" type="image/png" href="./favicon.ico">
     <link rel="stylesheet" href="./cart.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-D612Y712HT"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() {dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'G-D612Y712HT');
@@ -32,7 +32,6 @@
                     <ul>
                         <li><a href="./favourites.html"><img src="./love.png" alt=""></a></li>
                         <li><a href="./cart.html"><img src="./market.png" alt=""></a></li>
-                        
                     </ul>
                 </div>
             </nav>
@@ -40,6 +39,9 @@
         </div>
         <div id="cart">
 
+        </div>
+        <div id="payment">
+            <button onclick="if(confirm('Are you sure you want to proceed to payment?')){window.location.href = './contact.html'}">Proceed to Checkout</button>
         </div>
     </div>
     <script type="module" src="./cart.js"></script>
