@@ -4,15 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="SportMovo: sportswear, shoes and tracksuits from top brands. Delivery to Azerbaijan in 21-28 days.">
-    <title>SportMovo | Kids - Boys</title>
+    <meta name="description"
+        content="SportMovo: sportswear, shoes and tracksuits from top brands. Delivery to Azerbaijan in 21-28 days.">
+    <title>SportMovo | Home</title>
     <link rel="icon" type="image/png" href="./favicon.ico">
     <link rel="stylesheet" href="./style.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-D612Y712HT"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() {dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'G-D612Y712HT');
@@ -21,30 +22,33 @@
 
 <body>
     <div class="container">
-        <div class="header">
-            <img id="mylogo" src="./logo.png" alt="">
-            <nav>
-                <ul>
-                    <li><a href="./men.html?category=men">MEN</a></li>
-                    <li><a href="./women.html?category=women">WOMEN</a></li>
-                    <li><a href="./kids(boys).html?category=boys">KIDS(BOYS)</a></li>
-                    <li><a href="./kids(girls).html?category=girls">KIDS(GIRLS)</a></li>
-
-                </ul>
+        <div id="search-nav">
+            <div id="inp-btn">
+                <input type="text" id="search" placeholder="Search...">
+                <button type="submit" id="submitBtn"><img src="./Search_Icon.svg.webp" alt=""></button>
                 <div class="fav-cart">
                     <ul>
                         <li><a href="./favourites.html"><img src="./love.png" alt=""></a></li>
                         <li><a href="./cart.html"><img src="./market.png" alt=""></a></li>
-                        
+
                     </ul>
                 </div>
-            </nav>
+            </div>
+            <div class="header">
+                <nav>
+                    <ul>
+                        <li><a href="./men.html?category=men">MEN</a></li>
+                        <li><a href="./women.html?category=women">WOMEN</a></li>
+                        <li><a href="./kids(boys).html?category=boys">KIDS(BOYS)</a></li>
+                        <li><a href="./kids(girls).html?category=girls">KIDS(GIRLS)</a></li>
 
+                    </ul>
+
+                </nav>
+
+            </div>
         </div>
-        <div id="inp-btn">
-            <input type="text" id="search" placeholder="Search...">
-            <button type="submit" id="submitBtn"><img src="./Search_Icon.svg.webp" alt=""></button>
-        </div>
+
         <div id="products">
 
         </div>
