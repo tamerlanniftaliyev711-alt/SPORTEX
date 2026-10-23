@@ -5,9 +5,9 @@ async function GetData(category) {
     const data = await response.json();
     console.log(data);
     if(category) {
-        return data[category] || [];
+        return data.products[category] || [];
     }
-    return Object.values(data).flat();
+    return Object.values(data.products).flat();
 }
 
 export default GetData;

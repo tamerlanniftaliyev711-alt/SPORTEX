@@ -6,7 +6,7 @@
 
 ul {
     display: flex;
-    gap: 3rem;
+    gap: 4rem;
 }
 
 li {
@@ -40,7 +40,7 @@ a {
 nav {
     display: flex;
     align-items: center;
-    gap: 58rem;
+    gap: 50rem;
 }
 
 #favourites {
