@@ -40,7 +40,7 @@ a {
 nav {
     display: flex;
     align-items: center;
-    gap: 50rem;
+    gap: 45rem;
 }
 
 #cart {
@@ -157,6 +157,10 @@ nav {
     .header img {
         width: 1.5rem;
         height: 1.5rem;
+    }
+
+    .header a {
+        font-size: 0.7rem;
     }
 
     .product-card {

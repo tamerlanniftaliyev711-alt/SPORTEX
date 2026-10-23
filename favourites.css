@@ -40,7 +40,7 @@ a {
 nav {
     display: flex;
     align-items: center;
-    gap: 50rem;
+    gap: 45rem;
 }
 
 #favourites {
@@ -118,6 +118,10 @@ nav {
 
     ul {
         gap: 1rem;
+    }
+
+    .header a {
+        font-size: 0.7rem;
     }
 
     .header {

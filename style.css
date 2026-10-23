@@ -40,7 +40,7 @@ a {
 nav {
     display: flex;
     align-items: center;
-    gap: 50rem;
+    gap: 45rem;
 }
 
 #products {
@@ -187,6 +187,10 @@ input {
     #mylogo {
         width: 3.5rem;
         height: 3.5rem;
+    }
+
+    .header a {
+        font-size: 0.7rem;
     }
 
     ul {
