@@ -69,11 +69,11 @@
       {"id": 59, "image": "59.avif", "title": "Adidas Originals Short Sleeve 3-Stripe Cali Ringer Tee", "price": 35, "size": [" 6-7 ", " 8-9 ", " 10-12 " , " 12-14 "]},
       {"id": 60, "image": "60.avif", "title": "Adidas Originals Elastic Waistband Firebird Pant", "price": 50, "size": [" 4-5 " , " 6-7 ", " 8-9 ", " 10-12 " , " 12-14 "]},
       {"id": 61, "image": "61.avif", "title": "Adidas Originals Elastic Waistband Firebird Pant", "price": 50, "size": [" 4-5 " , " 6-7 ", " 8-9 ", " 10-12 " , " 12-14 "]},
-      {"id": 62, "image": "62.avif", "title": "Adidas Originals Elastic Waistband Firebird Pant", "price": 50, "size": [" 6-7 ", " 8-9 ", " 10-12 " , " 12-14 "]},
+      {"id": 64, "image": "64.avif", "title": "Adidas Originals Elastic Waistband Firebird Pant", "price": 50, "size": [" 6-7 ", " 8-9 ", " 10-12 " , " 12-14 "]},
       {"id": 63, "image": "63.avif", "title": "Adidas Originals Elastic Waistband Firebird Pant", "price": 50, "size": [" 4-5 " , " 6-7 ", " 8-9 ", " 10-12 " , " 12-14 "]}   
     ],
     "girls" : [
-      {"id": 6, "image": "69.avif", "title": "ADIDAS HOUSE OF TIRO UNISEX T-SHIRT", "price": 35, "size": [" 4-5 " , " 6-7 ", " 8-9 "]},
+      {"id": 69, "image": "69.avif", "title": "ADIDAS HOUSE OF TIRO UNISEX T-SHIRT", "price": 35, "size": [" 4-5 " , " 6-7 ", " 8-9 "]},
       {"id": 65, "image": "65.avif", "title": "ADIDAS HOUSE OF TIRO UNISEX T-SHIRT", "price": 35, "size": [" 4-5 " , " 6-7 ", " 8-9 "]}
     ]
     }
