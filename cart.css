@@ -121,7 +121,7 @@ nav {
     nav {
         gap: 21rem;
     }
-
+ 
     .product-card {
         width: 80%;
         margin-left: 10%;
@@ -152,6 +152,11 @@ nav {
 
     nav {
         gap: 2.3rem;
+    }
+
+    .header img {
+        width: 1.5rem;
+        height: 1.5rem;
     }
 
     .product-card {
