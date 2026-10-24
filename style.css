@@ -69,10 +69,10 @@ nav {
     padding: 1rem;
 }
 
-.product-card img { 
-    width: 100%; 
-    height: auto; 
-    object-fit: contain; 
+.product-card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .product-card h2 {
@@ -164,7 +164,7 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 #search-nav {
@@ -173,7 +173,7 @@ input {
 
 a {
     color: white;
-    
+
 }
 
 .product-card button:active {
@@ -228,10 +228,6 @@ a {
         height: 3.5rem;
     }
 
-    .header a {
-        font-size: 0.7rem;
-    }
-
     ul {
         gap: 1rem;
     }
@@ -244,8 +240,16 @@ a {
         gap: 2.3rem;
     }
 
+    .fav-cart {
+        margin-left: 10rem;
+    }
+
     .product-card {
         width: 80%;
         margin-left: 10%;
+    }
+
+    input {
+        margin-left: 1rem;
     }
 }
