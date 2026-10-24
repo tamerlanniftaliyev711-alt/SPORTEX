@@ -23,3 +23,4 @@ window.removeFromCart = function(id) {
     location.reload();
     
 }
+
