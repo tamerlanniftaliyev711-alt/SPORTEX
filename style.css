@@ -84,6 +84,10 @@ nav {
     object-fit: cover;
 }
 
+#inp-btn ul {
+    margin-bottom: 0;
+}
+
 .product-card p {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
@@ -140,14 +144,15 @@ nav {
 
 .fav-cart {
     margin-left: 12rem;
+    display: flex;
+    align-items: center;
+    height: 3rem;
 }
 
 input {
     width: 60rem;
     height: 3rem;
     padding: 10px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 
 #submitBtn {
@@ -164,11 +169,12 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    padding: 2rem;
 }
 
 #search-nav {
     background-color: #1c0263;
+
 }
 
 a {
@@ -182,7 +188,6 @@ a {
 
 #inp-btn button {
     background-color: #f2df94;
-    height: 2.9rem;
 }
 
 #inp-btn button:active {
@@ -249,7 +254,4 @@ a {
         margin-left: 10%;
     }
 
-    input {
-        margin-left: 1rem;
-    }
 }
