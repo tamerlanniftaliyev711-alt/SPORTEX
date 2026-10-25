@@ -44,7 +44,8 @@
       {"id": 80, "image": "80.avif", "title": "Adidas VL Court 3.0 Shoes", "price": 90, "size": [" 43 1/3 " , " 44 " , " 44 2/3" , " 45 1/3" , " 46 " , " 46 2/3 " , " 47 1/3 " , " 48 "]},
       {"id": 81, "image": "81.avif", "title": "Adidas VL Court 3.0 Shoes", "price": 90, "size": [" 39 1/3 " , " 40 ", " 40 2/3 ", " 41 1/3 ", " 42 ", " 42 2/3 ", " 43 1/3 " , " 44 " , " 44 2/3" , " 45 1/3" , " 46 " , " 46 2/3 " , " 47 1/3 " , " 48 " , " 48 2/3 "]},
       {"id": 82, "image": "82.avif", "title": "Adidas VL Court 3.0 Shoes", "price": 90, "size": [" 43 1/3 " , " 44 " , " 44 2/3" , " 45 1/3" , " 46 " , " 46 2/3 " , " 47 1/3 ", " 48 "]},
-      {"id": 83, "image": "83.avif", "title": "Adidas VL Court 3.0 Shoes", "price": 90, "size": [" 41 1/3 " , " 46 2/3 "]}
+      {"id": 83, "image": "83.avif", "title": "Adidas VL Court 3.0 Shoes", "price": 90, "size": [" 41 1/3 " , " 46 2/3 "]},
+      {"id": 107, "image": "107.avif", "title": "Puma Step up - Backpack", "price": 45, "size": []}
     ],
     "women" : [
       {"id": 28, "image": "28.avif", "title": "ADIDAS DAYREADY TRACKTOP", "price": 65, "size": [" XS ", " S ", " M ", " L ", " XL "]},
@@ -82,7 +83,8 @@
       {"id": 90, "image": "90.avif", "title": "Adidas Runfalcon 5 Running Shoes", "price": 80, "size": [" 36 " , " 36 2/3 ", " 37 1/3 ", " 38 " , " 38 2/3 " , " 39 1/3 " , " 40 "]},
       {"id": 91, "image": "91.avif", "title": "Adidas Runfalcon 5 Running Shoes", "price": 80, "size": [" 36 " , " 36 2/3 ", " 37 1/3 ", " 38 " , " 38 2/3 " , " 41 1/3 " , " 42 2/3 "]},
       {"id": 92, "image": "92.avif", "title": "Adidas Runfalcon 5 Running Shoes", "price": 80, "size": [" 44 "]},
-      {"id": 93, "image": "93.avif", "title": "Adidas Runfalcon 5 Running Shoes", "price": 80, "size": [" 38 2/3 "]}
+      {"id": 93, "image": "93.avif", "title": "Adidas Runfalcon 5 Running Shoes", "price": 80, "size": [" 38 2/3 "]},
+      {"id": 108, "image": "108.avif", "title": "Puma Step up - Backpack", "price": 45, "size": []}
     ],
     "boys" : [
       {"id": 54, "image": "54.avif", "title": "Adidas 2-Piece Long Sleeve 3-Stripes Rock Camo Jacket & Pant Set (Youth)", "price": 70, "size": [" 4-5 ", " 6-7 ", " 8-9 ", " 10-12 " , " 12-14 "]},
