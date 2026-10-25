@@ -52,11 +52,14 @@ nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 3rem;
+    margin-top: auto;
 }
 
 .card {
     border: 1px solid black;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .card img { 
