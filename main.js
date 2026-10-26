@@ -6,6 +6,17 @@ const category = new URLSearchParams(window.location.search).get('category');
 
 const data = await GetData(category);
 
+const productsLength = document.getElementById("productsLength")
+
+if(productsLength) {
+    productsLength.innerHTML = `
+    <div id ="allProducts">
+        <p>${"Count of Products:"}</p>
+        <h3>${data.length}</h3>
+    </div>
+    `
+}
+
 data.forEach((products) => {
     const productCard = document.createElement('div');
     productCard.classList.add('product-card');
@@ -25,6 +36,7 @@ data.forEach((products) => {
     
     `
     productsContainer.appendChild(productCard);
+
 });
 
 window.addToCart = function (products) {
@@ -51,13 +63,15 @@ submitBtn.addEventListener('click', () => {
     const filtered = data.filter(p =>
         p.title.toLowerCase().includes(text)
     )
-    document.querySelectorAll(".product-card").forEach((card , i) => {
+    document.querySelectorAll(".product-card").forEach((card, i) => {
         card.style.display = filtered.includes(data[i]) ? "" : "none"
-    }) 
+    })
+
 })
 
 searchProducts.addEventListener('keydown', (e) => {
     if (e.key === "Enter") {
         submitBtn.click()
     }
+
 })
