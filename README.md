@@ -7,7 +7,7 @@ SportMovo is built to deliver a seamless shopping experience for sports enthusia
 
 ## 🧑‍💻 Author & Founder
 * **Developer:** Tamerlan Niftəliyev
-* **Bio:** 11-year-old software developer, tech entrepreneur, and international mathematics olympiad gold medalist. Founder of **TAM Academy**.
+* **Bio:** 11-year-old software developer, tech entrepreneur, and international mathematics olympiad gold medalist.
 
 ## 🛠️ Tech Stack
 * **Editor:** Visual Studio Code (VS Code)
