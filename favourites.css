@@ -60,6 +60,7 @@ nav {
     padding: 1rem;
     display: flex;
     flex-direction: column;
+    margin-left: 10%;
 }
 
 .card img { 
@@ -130,7 +131,7 @@ nav {
     }
 
     .header a {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .header {
@@ -146,7 +147,7 @@ nav {
         height: 1.5rem;
     }
 
-    .product-card {
+    .card {
         width: 80%;
         margin-left: 10%;
     }
